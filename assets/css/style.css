@@ -549,7 +549,7 @@ color: #8D448B;
 .tutoials_features{
 background: #F6F8FB;
 padding-top: 100px;
-padding-bottom: 75px;
+padding-bottom: 180px;
 }
 .tutorials_content h4{
 font-family: 'DM Sans';
@@ -605,3 +605,139 @@ margin-bottom: 68px;
 margin-right: 8px;
 }
 /*End Tutorials Features*/
+/*Start Hire Area*/
+.hire_area {
+    background: #FFF;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.hire_developers_area {
+    background: #8D448B;
+    border-radius: 10px;
+    margin-top: -156px;
+    max-width: 1195px;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+.design_content {
+    width: 100%;
+    overflow: hidden;
+}
+.developer_content {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.developer_content h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.hire_btn{
+
+}
+
+.hire_btn{
+  width: 50%;
+  float: left;
+  padding-top: 70px;
+  overflow: hidden;
+  padding-left: 250px;
+}
+
+.hire_btn a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #8D448B;
+    box-sizing: border-box;
+    background: #F9FBFD;
+    border: 1px solid #8D448B;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 19px 44px;
+}
+.footer_area {
+    margin-top: 110px;
+    padding-bottom: 60px;
+}
+.footer_area p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #0F2137;
+opacity: 0.6;
+float: left;
+}
+.footer_area p img{
+  padding-right: 16px;
+}
+.footer_menu{
+  float: right;
+}
+.footer_menu ul {
+  float: left;
+}
+.footer_menu ul li{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 33px;
+display: flex;
+float: left;
+color: #02073E;
+margin: 5px 15px;
+
+}
+.top_vector_image {
+    position: absolute;
+    top: 35px;
+    right: 174px;
+}
+.bottom_vector_image {
+    position: absolute;
+    bottom: 35px;
+    right: 174px;
+}
+.middle_vector_image{
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  opacity: 0.5;
+  height: 120;
+  width: 250;
+}
+/*End Footer Area*/
+/*
+.hire_developers_area:after{
+  position: absolute;
+    content: " ";
+    width: 250px;
+    height: 100px;
+    background: url('../photos/s_middle.png');
+    background-repeat: no-repeat;
+    top: 40px;
+    right: 400px;
+    background-size: cover;
+    opacity: 0.5;
+}
+*/
+
